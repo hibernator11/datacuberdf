@@ -37,6 +37,12 @@ sdmx-attr:unitMeasure a rdf:Property, qb:AttributeProperty ;
                            rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
                            rdfs:comment "The unit in which the data values are measured."@en ;
                            qb:concept sdmx-concept:unitMeasure .  
+                           
+sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
+                      rdfs:label "Observation"@en ;
+                      rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
+                      rdfs:comment "The value of a particular variable at a particular period."@en ;
+                      qb:concept sdmx-concept:obsValue .                           
 
 ex:dsd a qb:DataStructureDefinition ;
   rdfs:label "DSD for the dataset"@en ;
