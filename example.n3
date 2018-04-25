@@ -1,0 +1,78 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix ex: <http://www.myDataCube.org/> .
+@prefix ex-dsd: <http://www.myDataCube.org/dsd/> .
+@prefix sdmx-attr: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-meas: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xmls: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dbp-r: <http://dbpedia.org/resource/> .
+
+ex:obs1 a qb:Observation ;
+  qb:dataSet ex:dataset ;
+  ex:time ex:Y2001 ;
+  sdmx-attr:unitMeasure ex:unit ;
+  ex:geo ex:DE ;
+  sdmx-meas:obsValue "1500"^^xmls:float .
+
+ex:obs2 a qb:Observation ;
+  qb:dataSet ex:dataset ;
+  ex:time ex:Y2002 ;
+  sdmx-attr:unitMeasure ex:unit ;
+  ex:geo ex:DE ;
+  sdmx-meas:obsValue "2000"^^xmls:float .
+
+ex:dataset a qb:DataSet ;
+  rdfs:label "Dataset"^^xmls:string ;
+  rdfs:comment "Overview description about the dataset" ;
+  qb:structure ex:dsd ;
+  dc:publisher "Publisher Office"^^xmls:string .
+
+ex:dsd a qb:DataStructureDefinition ;
+  rdfs:label "DSD for the dataset"@en ;
+  qb:component 	
+    ex-dsd:geo , 
+    ex-dsd:time , 
+    ex-dsd:unit , 
+    ex-dsd:value .
+
+ex-dsd:geo a qb:ComponentSpecification ;
+  qb:dimension ex:geo ;
+  rdfs:label "CS for Region" .
+
+ex-dsd:time a qb:ComponentSpecification ;
+  qb:dimension ex:time ;
+  rdfs:label "CS for Time" .
+
+ex-dsd:value a qb:ComponentSpecification ;
+  rdfs:label "CS for Value" ;
+  qb:measure sdmx-meas:obsValue .
+
+ex-dsd:unit a qb:ComponentSpecification ;
+  rdfs:label "CS for Unit" ;
+  qb:attribute sdmx-attr:unitMeasure .
+
+ex:geo a qb:DimensionProperty ;
+  rdfs:label "Region"@en .
+
+ex:time a qb:DimensionProperty ;
+  rdfs:label "Time"@en .
+
+ex:value a qb:MeasureProperty ;
+  rdfs:label "Value"@en .
+
+ex:unit a qb:AttributeProperty ;
+  rdfs:label "Unit" .
+
+ex:DE a ex:Region ;
+  owl:sameAs dbp-r:Germany ;
+  rdfs:label "Germany"@en .
+
+ex:Y2001 a ex:Time ;
+  rdfs:label "2001"@en .
+
+ex:Y2002 a ex:Time ;
+  rdfs:label "2002"@en .
