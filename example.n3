@@ -32,6 +32,13 @@ ex:obs3 a qb:Observation ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
   sdmx-meas:obsValue "2400"^^xmls:float .
+  
+ex:obs4 a qb:Observation ;
+  qb:dataSet ex:dataset ;
+  ex:time ex:Y2004 ;
+  sdmx-attr:unitMeasure ex:unit ;
+  ex:geo ex:DE ;
+  sdmx-meas:obsValue "2300"^^xmls:float .
 
 ex:dataset a qb:DataSet ;
   rdfs:label "Dataset"^^xmls:string ;
@@ -99,3 +106,6 @@ ex:Y2002 a ex:Time ;
   
 ex:Y2003 a ex:Time ;
   rdfs:label "2003"@en .
+
+ex:Y2004 a ex:Time ;
+  rdfs:label "2004"@en .
