@@ -47,6 +47,13 @@ ex:obs5 a qb:Observation ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Raval ;
   sdmx-meas:obsValue "2100"^^xmls:float .  
+  
+ex:obs6 a qb:Observation ;
+  qb:dataSet ex:dataset ;
+  ex:time ex:Y2004 ;
+  sdmx-attr:unitMeasure ex:unit ;
+  ex:geo ex:Gothic ;
+  sdmx-meas:obsValue "1800"^^xmls:float .  
 
 ex:dataset a qb:DataSet ;
   rdfs:label "Dataset"^^xmls:string ;
@@ -109,7 +116,10 @@ ex:DE a ex:Region ;
 ex:Raval a ex:Region ;
   owl:sameAs wd:Q1758503 ;
   rdfs:label "El Raval"@en .
-
+  
+ex:Gothic a ex:Region ;
+  owl:sameAs wd:Q17154 ;
+  rdfs:label "Gothic Quarter"@en .
 
 ex:Y2001 a ex:Time ;
   rdfs:label "2001"@en .
