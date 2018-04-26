@@ -120,6 +120,147 @@ ex:Raval a ex:Region ;
 ex:Gothic a ex:Region ;
   owl:sameAs wd:Q17154 ;
   rdfs:label "Gothic Quarter"@en .
+  
+ex:Barceloneta a ex:Region ;
+  owl:sameAs wd:Q377070 ;
+  rdfs:label "La Barceloneta"@en .
+  
+ex:SantPere a ex:Region ;
+  owl:sameAs wd:Q2442135 ;
+  rdfs:label "Sant Pere, Santa Caterina i la Ribera"@en .
+  
+ex:CanBaro a ex:Region ;
+  owl:sameAs wd:Q3321797 ;
+  rdfs:label "Can Baró"@en .  
+  
+ex:CanPeguera a ex:Region ;
+  owl:sameAs wd:Q3320716 ;
+  rdfs:label "Can Peguera"@en .  
+
+ex:Canyelles a ex:Region ;
+  owl:sameAs wd:Q3751386 ;
+  rdfs:label "Canyelles"@en . 
+
+ex:Meridiana a ex:Region ;
+  owl:sameAs wd:Q3320722 ;
+  rdfs:label "Ciutat Meridiana"@en . 
+  
+ex:Guinardo a ex:Region ;
+  owl:sameAs wd:Q3297875 ;
+  rdfs:label "El Baix Guinardó"@en .   
+
+ex:Maresme a ex:Region ;
+  owl:sameAs wd:Q2390761 ;
+  rdfs:label "El Besòs i el Maresme"@en . 
+  
+ex:BonPastor a ex:Region ;
+  owl:sameAs wd:Q3319496 ;
+  rdfs:label "Bon Pastor"@en . 
+
+ex:Grassot a ex:Region ;
+  owl:sameAs wd:Q2994821 ;
+  rdfs:label "Camp d'en Grassot i Gràcia Nova"@en . 
+  
+ex:ArpaClot a ex:Region ;
+  owl:sameAs wd:Q3294602 ;
+  rdfs:label "El Camp de l'Arpa del Clot"@en .
+  
+ex:Carmel a ex:Region ;
+  owl:sameAs wd:Q3319498 ;
+  rdfs:label "El Carmel"@en .     
+
+ex:LaClota a ex:Region ;
+  owl:sameAs wd:Q3320857 ;
+  rdfs:label "La Clota"@en .     
+
+ex:Clot a ex:Region ;
+  owl:sameAs wd:Q2979686 ;
+  rdfs:label "El Clot"@en .     
+
+ex:Coll a ex:Region ;
+  owl:sameAs wd:Q1932090 ;
+  rdfs:label "El Coll"@en .
+  
+ex:Congres a ex:Region ;
+  owl:sameAs wd:Q3813818 ;
+  rdfs:label "El Congrés i els Indians"@en .     
+ 
+ex:FortPienc a ex:Region ;
+  owl:sameAs wd:Q2107762 ;
+  rdfs:label "Fort Pienc"@en .   
+ 
+ex:ElGuinardo a ex:Region ;
+  owl:sameAs wd:Q3045547 ;
+  rdfs:label "El Guinardó"@en .   
+
+ex:Llacuna a ex:Region ;
+  owl:sameAs wd:Q3294440 ;
+  rdfs:label "El Parc i la Llacuna del Poblenou"@en .   
+ 
+ex:PobleSec a ex:Region ;
+  owl:sameAs wd:Q980253 ;
+  rdfs:label "El Poble-sec"@en .    
+  
+ex:PobleNou a ex:Region ;
+  owl:sameAs wd:Q1404773 ;
+  rdfs:label "El Poblenou"@en .  
+  
+ex:Putget a ex:Region ;
+  owl:sameAs wd:Q3321805 ;
+  rdfs:label "El Putget i Farró"@en .  
+  
+ex:Horta a ex:Region ;
+  owl:sameAs wd:Q15225338 ;
+  rdfs:label "Horta"@en .    
+
+ex:Hostafrancs a ex:Region ;
+  owl:sameAs wd:Q3750929 ;
+  rdfs:label "Hostafrancs"@en .  
+  
+ex:Esquerra a ex:Region ;
+  owl:sameAs wd:Q3291762 ;
+  rdfs:label "L'Antiga Esquerra de l'Eixample"@en .  
+
+ex:Bordeta a ex:Region ;
+  owl:sameAs wd:Q9018356 ;
+  rdfs:label "La Bordeta"@en .  
+  
+ex:Dreta a ex:Region ;
+  owl:sameAs wd:Q1904302 ;
+  rdfs:label "Dreta de l'Eixample"@en .  
+  
+ex:Font a ex:Region ;
+  owl:sameAs wd:Q3297889 ;
+  rdfs:label "La Font d'en Fargues"@en .    
+
+ex:Guineueta a ex:Region ;
+  owl:sameAs wd:Q2736697 ;
+  rdfs:label "La Guineueta"@en .    
+
+ex:Marina a ex:Region ;
+  owl:sameAs wd:Q3751076 ;
+  rdfs:label "La Marina de Port"@en .    
+
+ex:NovaEsquerra a ex:Region ;
+  owl:sameAs wd:Q1026658 ;
+  rdfs:label "La Nova Esquerra de l'Eixample"@en .    
+
+ex:Prosperitat a ex:Region ;
+  owl:sameAs wd:Q3750926 ;
+  rdfs:label "La Prosperitat"@en .
+  
+ex:SagradaFamilia a ex:Region ;
+  owl:sameAs wd:Q2470217 ;
+  rdfs:label "Sagrada Família"@en .
+  
+ex:Sagrera a ex:Region ;
+  owl:sameAs wd:Q3773462 ;
+  rdfs:label "La Sagrera"@en .
+
+ex:Salut a ex:Region ;
+  owl:sameAs wd:Q3320699 ;
+  rdfs:label "La Salut"@en .
+
 
 ex:Y2001 a ex:Time ;
   rdfs:label "2001"@en .
