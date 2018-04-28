@@ -260,7 +260,42 @@ ex:Sagrera a ex:Region ;
 ex:Salut a ex:Region ;
   owl:sameAs wd:Q3320699 ;
   rdfs:label "La Salut"@en .
+  
+ex:Taxonera a ex:Region ;
+  owl:sameAs wd:Q3320705 ;
+  rdfs:label "La Taxonera"@en .  
 
+ex:Taxonera a ex:Region ;
+  owl:sameAs wd:Q3320705 ;
+  rdfs:label "La Taxonera"@en .  
+
+ex:TrinitatNova a ex:Region ;
+  owl:sameAs wd:Q3750932 ;
+  rdfs:label "La Trinitat Nova"@en .
+
+ex:TrinitatVella a ex:Region ;
+  owl:sameAs wd:Q6746220 ;
+  rdfs:label "La Trinitat Vella"@en .
+
+ex:ValHebron a ex:Region ;
+  owl:sameAs wd:Q3298492 ;
+  rdfs:label "La Vall d'Hebron"@en .
+    
+ex:Verneda a ex:Region ;
+  owl:sameAs wd:Q542473 ;
+  rdfs:label "La Verneda i la Pau"@en .
+
+ex:VilaGracia a ex:Region ;
+  owl:sameAs wd:Q2741611 ;
+  rdfs:label "Vila de Gràcia"@en .
+
+ex:VilaOlimpica a ex:Region ;
+  owl:sameAs wd:Q1167101 ;
+  rdfs:label "La Vila Olímpica del Poblenou"@en .
+ 
+ex:Corts a ex:Region ;
+  owl:sameAs wd:Q3296693 ;
+  rdfs:label "Les Corts"@en .
 
 ex:Y2001 a ex:Time ;
   rdfs:label "2001"@en .
