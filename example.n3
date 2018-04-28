@@ -296,6 +296,110 @@ ex:VilaOlimpica a ex:Region ;
 ex:Corts a ex:Region ;
   owl:sameAs wd:Q3296693 ;
   rdfs:label "Les Corts"@en .
+   
+ex:Roquetes a ex:Region ;
+  owl:sameAs wd:Q1627690 ;
+  rdfs:label "Les Roquetes"@en .
+  
+ex:TresTorres a ex:Region ;
+  owl:sameAs wd:Q3297896 ;
+  rdfs:label "Les Tres Torres"@en . 
+
+ex:Montbau a ex:Region ;
+  owl:sameAs wd:Q3298502 ;
+  rdfs:label "Montbau"@en . 
+  
+ex:Navas a ex:Region ;
+  owl:sameAs wd:Q3813816 ;
+  rdfs:label "Navas"@en . 
+
+ex:Pedralbes a ex:Region ;
+  owl:sameAs wd:Q2562684 ;
+  rdfs:label "Pedralbes"@en . 
+
+ex:Porta a ex:Region ;
+  owl:sameAs wd:Q3750558 ;
+  rdfs:label "Porta"@en . 
+
+ex:Provencals a ex:Region ;
+  owl:sameAs wd:Q6273541 ;
+  rdfs:label "Provençals del Poblenou"@en . 
+  
+ex:Andreu a ex:Region ;
+  owl:sameAs wd:Q990510 ;
+  rdfs:label "Sant Andreu de Palomar"@en . 
+      
+ex:Antoni a ex:Region ;
+  owl:sameAs wd:Q720994 ;
+  rdfs:label "Sant Antoni"@en . 
+
+ex:Genis a ex:Region ;
+  owl:sameAs wd:Q3298510 ;
+  rdfs:label "Sant Genís dels Agudells"@en . 
+
+ex:Genis a ex:Region ;
+  owl:sameAs wd:Q3389521 ;
+  rdfs:label "Sant Gervasi – Galvany"@en .  
+
+ex:Gervasi a ex:Region ;
+  owl:sameAs wd:Q3321657 ;
+  rdfs:label "Sant Gervasi – la Bonanova"@en .
+
+ex:Marti a ex:Region ;
+  owl:sameAs wd:Q3773169 ;
+  rdfs:label "Sant Martí de Provençals"@en . 
+
+ex:Gervasi a ex:Region ;
+  owl:sameAs wd:Q3321657 ;
+  rdfs:label "Sant Gervasi – la Bonanova"@en .
+  
+ex:SantPere a ex:Region ;
+  owl:sameAs wd:Q2442135 ;
+  rdfs:label "Sant Pere, Santa Caterina i la Ribera"@en .
+
+ex:SantPere a ex:Region ;
+  owl:sameAs wd:Q2442135 ;
+  rdfs:label "Sant Pere, Santa Caterina i la Ribera"@en .
+
+ex:Sants a ex:Region ;
+  owl:sameAs wd:Q2476184 ;
+  rdfs:label "Sants"@en .
+
+ex:SantsBadal a ex:Region ;
+  owl:sameAs wd:Q3596096 ;
+  rdfs:label "Sants-Badal"@en .
+  
+ex:Sarria a ex:Region ;
+  owl:sameAs wd:Q3043699 ;
+  rdfs:label "Sarrià"@en .
+  
+ex:TorreBaro a ex:Region ;
+  owl:sameAs wd:Q3750940 ;
+  rdfs:label "Torre Baró"@en .
+  
+ex:TorreBaro a ex:Region ;
+  owl:sameAs wd:Q3750940 ;
+  rdfs:label "Torre Baró"@en .
+  
+ex:Vallbona a ex:Region ;
+  owl:sameAs wd:Q3751072 ;
+  rdfs:label "Vallbona"@en .
+
+ex:Vallcarca a ex:Region ;
+  owl:sameAs wd:Q2057331 ;
+  rdfs:label "Vallcarca i els Penitents"@en .
+
+ex:Vallvidrera a ex:Region ;
+  owl:sameAs wd:Q3310216 ;
+  rdfs:label "Vallvidrera, el Tibidabo i les Planes"@en .
+  
+ex:Verdum a ex:Region ;
+  owl:sameAs wd:Q3750551 ;
+  rdfs:label "Verdum"@en .
+
+ex:Vilapicina a ex:Region ;
+  owl:sameAs wd:Q3320806 ;
+  rdfs:label "Vilapicina i la Torre Llobeta"@en .
 
 ex:Y2001 a ex:Time ;
   rdfs:label "2001"@en .
