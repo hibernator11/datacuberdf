@@ -90,7 +90,8 @@ ex:dsd a qb:DataStructureDefinition ;
     ex-dsd:geo , 
     ex-dsd:time , 
     ex-dsd:unit , 
-    ex-dsd:value .
+    ex-dsd:value ,
+    ex-dsd:perCapitaIncome.
 
 ex-dsd:geo a qb:ComponentSpecification ;
   qb:dimension ex:geo ;
@@ -103,6 +104,10 @@ ex-dsd:time a qb:ComponentSpecification ;
 ex-dsd:value a qb:ComponentSpecification ;
   rdfs:label "CS for Value" ;
   qb:measure sdmx-meas:obsValue .
+  
+ex-dsd:perCapitaIncome a qb:ComponentSpecification ;
+  rdfs:label "perCapitaIncome for Value" ;
+  qb:measure sdmx-meas:obsValue .  
 
 ex-dsd:unit a qb:ComponentSpecification ;
   rdfs:label "CS for Unit" ;
@@ -116,6 +121,9 @@ ex:time a qb:DimensionProperty ;
 
 ex:value a qb:MeasureProperty ;
   rdfs:label "Value"@en .
+  
+ex:perCapitaIncome a qb:MeasureProperty ;
+  rdfs:label "Value"@en .  
 
 ex:unit a qb:AttributeProperty ;
   rdfs:label "Unit" .
