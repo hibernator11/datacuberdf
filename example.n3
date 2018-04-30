@@ -26,6 +26,7 @@ ex:obs2 a qb:Observation ;
   ex:time ex:Y2002 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
+  ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "2000"^^xmls:float .
   
 ex:obs3 a qb:Observation ;
@@ -33,6 +34,7 @@ ex:obs3 a qb:Observation ;
   ex:time ex:Y2003 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
+  ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "2400"^^xmls:float .
   
 ex:obs4 a qb:Observation ;
@@ -40,6 +42,7 @@ ex:obs4 a qb:Observation ;
   ex:time ex:Y2004 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
+  ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "2300"^^xmls:float .
   
 ex:obs5 a qb:Observation ;
@@ -47,6 +50,7 @@ ex:obs5 a qb:Observation ;
   ex:time ex:Y2004 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Raval ;
+  ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "2100"^^xmls:float .  
   
 ex:obs6 a qb:Observation ;
@@ -54,6 +58,7 @@ ex:obs6 a qb:Observation ;
   ex:time ex:Y2004 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Gothic ;
+  ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "1800"^^xmls:float .  
 
 ex:dataset a qb:DataSet ;
@@ -78,7 +83,7 @@ ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
     rdfs:label "per capita income"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
     qb:concept sdmx-concept:obsValue ;
-    rdfs:range xmls:decimal .                       
+    rdfs:range xmls:decimal . 
 
 ex:dsd a qb:DataStructureDefinition ;
   rdfs:label "DSD for the dataset"@en ;
