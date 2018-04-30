@@ -18,7 +18,7 @@ ex:obs1 a qb:Observation ;
   ex:time ex:Y2001 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
-  ex:perCapitaIncome "1000"^^xmls:float ;
+  ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "1500"^^xmls:float .
 
 ex:obs2 a qb:Observation ;
@@ -26,7 +26,6 @@ ex:obs2 a qb:Observation ;
   ex:time ex:Y2002 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
-  ex:perCapitaIncome "1000"^^xmls:float ;
   sdmx-meas:obsValue "2000"^^xmls:float .
   
 ex:obs3 a qb:Observation ;
@@ -34,7 +33,6 @@ ex:obs3 a qb:Observation ;
   ex:time ex:Y2003 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
-  ex:perCapitaIncome "1000"^^xmls:float ;
   sdmx-meas:obsValue "2400"^^xmls:float .
   
 ex:obs4 a qb:Observation ;
@@ -42,7 +40,6 @@ ex:obs4 a qb:Observation ;
   ex:time ex:Y2004 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
-  ex:perCapitaIncome "1000"^^xmls:float ;
   sdmx-meas:obsValue "2300"^^xmls:float .
   
 ex:obs5 a qb:Observation ;
@@ -50,7 +47,6 @@ ex:obs5 a qb:Observation ;
   ex:time ex:Y2004 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Raval ;
-  ex:perCapitaIncome "800"^^xmls:float ;
   sdmx-meas:obsValue "2100"^^xmls:float .  
   
 ex:obs6 a qb:Observation ;
@@ -58,7 +54,6 @@ ex:obs6 a qb:Observation ;
   ex:time ex:Y2004 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Gothic ;
-  ex:perCapitaIncome "700"^^xmls:float ;
   sdmx-meas:obsValue "1800"^^xmls:float .  
 
 ex:dataset a qb:DataSet ;
@@ -79,8 +74,8 @@ sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
                       rdfs:comment "The value of a particular variable at a particular period."@en ;
                       qb:concept sdmx-concept:obsValue .     
                       
-ex:perCapitaIncome  a rdf:Property, qb:MeasureProperty;
-    rdfs:label "per capita oncome"@en;
+ex:perCapitaIncome a rdf:Property, qb:MeasureProperty;
+    rdfs:label "per capita income"@en;
     rdfs:subPropertyOf sdmx-measure:obsValue;
     rdfs:range xsd:decimal .                       
 
