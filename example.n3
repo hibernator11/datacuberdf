@@ -76,7 +76,7 @@ sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
                       
 ex:perCapitaIncome a rdf:Property, qb:MeasureProperty;
     rdfs:label "per capita income"@en;
-    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:subPropertyOf sdmx-meas:obsValue;
     rdfs:range xsd:decimal .                       
 
 ex:dsd a qb:DataStructureDefinition ;
