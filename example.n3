@@ -499,22 +499,22 @@ ex:Y2017M9 a ex:Time ;
              skos:broader ex:Y2017Q3 ;
              skos:notation "Y2017M9" .
 
-ex:Y2017Q1 a ex:P3M ;
+ex:Y2017Q1 a ex:TimeQ1 ;
              skos:prefLabel "2017/I quarter"@en ;
              skos:broader ex:Y2017 ;
              skos:notation "Y2017Q1" .
 
-ex:Y2017Q2 a ex:P3M ;
+ex:Y2017Q2 a ex:TimeQ2 ;
              skos:prefLabel "2017/II quarter"@en ;
              skos:broader ex:Y2017 ;
              skos:notation "Y2017Q2" .
 
-ex:Y2017Q3 a ex:P3M ;
+ex:Y2017Q3 a ex:TimeQ3 ;
              skos:prefLabel "2017/III quarter"@en ;
              skos:broader ex:Y2017 ;
              skos:notation "Y2017Q3" .
 
-ex:Y2017Q4 a ex:P3M ;
+ex:Y2017Q4 a ex:TimeQ4 ;
              skos:prefLabel "2017/IV quarter"@en ;
              skos:broader ex:Y2017 ;
              skos:notation "Y2017Q4" .
