@@ -12,6 +12,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dbp-r: <http://dbpedia.org/resource/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 ex:obs1 a qb:Observation ;
   qb:dataSet ex:dataset ;
