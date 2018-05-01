@@ -437,85 +437,85 @@ ex:Y2004 a ex:Time ;
   
 ex:Y2017 a ex:Time ;
            skos:prefLabel "2017"@en ;
-           skos:notation "Y2017"^^xsd:string .
+           skos:notation "Y2017" .
 
 ex:Y2017M1 a ex:Time ;
              skos:prefLabel "2017/january"@en ;
              skos:broader ex:Y2017Q1 ;
-             skos:notation "Y2017M1"^^xsd:string .
+             skos:notation "Y2017M1" .
 
 ex:Y2017M10 a ex:Time ;
               skos:prefLabel "2017/october"@en ;
               skos:broader ex:Y2017Q4 ;
-              skos:notation "Y2017M10"^^xsd:string .
+              skos:notation "Y2017M10" .
 
 ex:Y2017M11 a ex:Time ;
               skos:prefLabel "2017/november"@en ;
               skos:broader ex:Y2017Q4 ;
-              skos:notation "Y2017M11"^^xsd:string .
+              skos:notation "Y2017M11" .
 
 ex:Y2017M12 a ex:Time ;
               skos:prefLabel "2017/december"@en ;
               skos:broader ex:Y2017Q4 ;
-              skos:notation "Y2017M12"^^xsd:string .
+              skos:notation "Y2017M12" .
 
 ex:Y2017M2 a ex:Time ;
              skos:prefLabel "2017/february"@en ;
              skos:broader ex:Y2017Q1 ;
-             skos:notation "Y2017M2"^^xsd:string .
+             skos:notation "Y2017M2" .
 
 ex:Y2017M3 a ex:Time ;
              skos:prefLabel "2017/mart"@en ;
              skos:broader ex:Y2017Q1 ;
-             skos:notation "Y2017M3"^^xsd:string .
+             skos:notation "Y2017M3" .
 
 ex:Y2017M4 a ex:Time ;
              skos:prefLabel "2017/april"@en ;
              skos:broader ex:Y2017Q2 ;
-             skos:notation "Y2017M4"^^xsd:string .
+             skos:notation "Y2017M4" .
 
 ex:Y2017M5 a ex:Time ;
              skos:prefLabel "2017/may"@en ;
              skos:broader ex:Y2017Q2 ;
-             skos:notation "Y2017M5"^^xsd:string .
+             skos:notation "Y2017M5" .
 
 ex:Y2017M6 a ex:Time ;
              skos:prefLabel "2017/june"@en ;
              skos:broader ex:Y2017Q2 ;
-             skos:notation "Y2017M6"^^xsd:string .
+             skos:notation "Y2017M6" .
 
 ex:Y2017M7 a ex:Time ;
              skos:prefLabel "2017/july"@en ;
              skos:broader ex:Y2017Q3 ;
-             skos:notation "Y2017M7"^^xsd:string .
+             skos:notation "Y2017M7" .
 
 ex:Y2017M8 a ex:Time ;
              skos:prefLabel "2017/august"@en ;
              skos:broader ex:Y2017Q3 ;
-             skos:notation "Y2017M8"^^xsd:string .
+             skos:notation "Y2017M8" .
 
 ex:Y2017M9 a ex:Time ;
              skos:prefLabel "2017/september"@en ;
              skos:broader ex:Y2017Q3 ;
-             skos:notation "Y2017M9"^^xsd:string .
+             skos:notation "Y2017M9" .
 
 ex:Y2017Q1 a ex:P3M ;
              skos:prefLabel "2017/I quarter"@en ;
              skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q1"^^xsd:string .
+             skos:notation "Y2017Q1" .
 
 ex:Y2017Q2 a ex:P3M ;
              skos:prefLabel "2017/II quarter"@en ;
              skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q2"^^xsd:string .
+             skos:notation "Y2017Q2" .
 
 ex:Y2017Q3 a ex:P3M ;
              skos:prefLabel "2017/III quarter"@en ;
              skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q3"^^xsd:string .
+             skos:notation "Y2017Q3" .
 
 ex:Y2017Q4 a ex:P3M ;
              skos:prefLabel "2017/IV quarter"@en ;
              skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q4"^^xsd:string .
+             skos:notation "Y2017Q4" .
   
