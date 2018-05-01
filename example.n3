@@ -124,7 +124,7 @@ ex:value a qb:MeasureProperty ;
   rdfs:label "Value"@en .
   
 ex:perCapitaIncome a qb:MeasureProperty ;
-  rdfs:label "Value"@en .  
+  rdfs:label "Per capita income"@en .  
 
 ex:unit a qb:AttributeProperty ;
   rdfs:label "Unit" .
