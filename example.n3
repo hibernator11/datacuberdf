@@ -34,7 +34,7 @@ ex:obs3 a qb:Observation ;
   ex:time ex:Y2003 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
-  ex:perCapitaIncome 76.7 ;
+  ex:perCapitaIncome 16.5;
   sdmx-meas:obsValue "2400"^^xmls:float .
   
 ex:obs4 a qb:Observation ;
