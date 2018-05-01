@@ -108,7 +108,7 @@ ex-dsd:value a qb:ComponentSpecification ;
   
 ex-dsd:perCapitaIncome a qb:ComponentSpecification ;
   rdfs:label "perCapitaIncome for Value" ;
-  qb:measure sdmx-meas:obsValue .  
+  qb:measure ex:perCapitaIncome.  
 
 ex-dsd:unit a qb:ComponentSpecification ;
   rdfs:label "CS for Unit" ;
