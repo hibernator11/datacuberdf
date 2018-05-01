@@ -48,7 +48,7 @@ ex:obs4 a qb:Observation ;
   
 ex:obs5 a qb:Observation ;
   qb:dataSet ex:dataset ;
-  ex:time ex:Y2017M1 ;
+  ex:time ex:Y2017M5 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Raval ;
   ex:perCapitaIncome 76.7 ;
