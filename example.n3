@@ -18,7 +18,7 @@ ex:obs1 a qb:Observation ;
   qb:dataSet ex:dataset ;
   ex:time ex:Y2017M1 ;
   sdmx-attr:unitMeasure ex:unit ;
-  ex:geo ex:DE ;
+  ex:geo ex:Raval ;
   ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "1500"^^xmls:float .
 
@@ -26,7 +26,7 @@ ex:obs2 a qb:Observation ;
   qb:dataSet ex:dataset ;
   ex:time ex:Y2017M2 ;
   sdmx-attr:unitMeasure ex:unit ;
-  ex:geo ex:DE ;
+  ex:geo ex:Raval ;
   ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "2000"^^xmls:float .
   
@@ -34,7 +34,7 @@ ex:obs3 a qb:Observation ;
   qb:dataSet ex:dataset ;
   ex:time ex:Y2017M3 ;
   sdmx-attr:unitMeasure ex:unit ;
-  ex:geo ex:DE ;
+  ex:geo ex:Raval ;
   ex:perCapitaIncome 16.5;
   sdmx-meas:obsValue "2400"^^xmls:float .
   
@@ -42,7 +42,7 @@ ex:obs4 a qb:Observation ;
   qb:dataSet ex:dataset ;
   ex:time ex:Y2017M4 ;
   sdmx-attr:unitMeasure ex:unit ;
-  ex:geo ex:DE ;
+  ex:geo ex:Raval ;
   ex:perCapitaIncome 76.7 ;
   sdmx-meas:obsValue "2300"^^xmls:float .
   
