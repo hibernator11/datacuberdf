@@ -465,7 +465,7 @@ ex:Y2017M2 a ex:Time ;
              skos:notation "Y2017M2" .
 
 ex:Y2017M3 a ex:Time ;
-             skos:prefLabel "2017/mart"@en ;
+             skos:prefLabel "2017/march"@en ;
              skos:broader ex:Y2017Q1 ;
              skos:notation "Y2017M3" .
 
