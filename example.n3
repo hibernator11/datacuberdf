@@ -15,7 +15,7 @@
 
 ex:obs1 a qb:Observation ;
   qb:dataSet ex:dataset ;
-  ex:time ex:Y2001 ;
+  ex:time ex:Y2017M1 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
   ex:perCapitaIncome 76.7 ;
@@ -23,7 +23,7 @@ ex:obs1 a qb:Observation ;
 
 ex:obs2 a qb:Observation ;
   qb:dataSet ex:dataset ;
-  ex:time ex:Y2002 ;
+  ex:time ex:Y2017M2 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
   ex:perCapitaIncome 76.7 ;
@@ -31,7 +31,7 @@ ex:obs2 a qb:Observation ;
   
 ex:obs3 a qb:Observation ;
   qb:dataSet ex:dataset ;
-  ex:time ex:Y2003 ;
+  ex:time ex:Y2017M3 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
   ex:perCapitaIncome 16.5;
@@ -39,7 +39,7 @@ ex:obs3 a qb:Observation ;
   
 ex:obs4 a qb:Observation ;
   qb:dataSet ex:dataset ;
-  ex:time ex:Y2004 ;
+  ex:time ex:Y2017M4 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:DE ;
   ex:perCapitaIncome 76.7 ;
@@ -47,7 +47,7 @@ ex:obs4 a qb:Observation ;
   
 ex:obs5 a qb:Observation ;
   qb:dataSet ex:dataset ;
-  ex:time ex:Y2004 ;
+  ex:time ex:Y2017M1 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Raval ;
   ex:perCapitaIncome 76.7 ;
@@ -55,7 +55,7 @@ ex:obs5 a qb:Observation ;
   
 ex:obs6 a qb:Observation ;
   qb:dataSet ex:dataset ;
-  ex:time ex:Y2004 ;
+  ex:time ex:Y2017M2 ;
   sdmx-attr:unitMeasure ex:unit ;
   ex:geo ex:Gothic ;
   ex:perCapitaIncome 76.7 ;
@@ -82,6 +82,7 @@ sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
 ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
     rdfs:label "per capita income"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
+    rdfs:comment "The per capita oncome of a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue ;
     rdfs:range xmls:decimal . 
 
@@ -432,3 +433,88 @@ ex:Y2003 a ex:Time ;
 
 ex:Y2004 a ex:Time ;
   rdfs:label "2004"@en .
+  
+ex:Y2017 a ex:Time ;
+           skos:prefLabel "2017"@en ;
+           skos:notation "Y2017"^^xsd:string .
+
+ex:Y2017M1 a ex:Time ;
+             skos:prefLabel "2017/january"@en ;
+             skos:broader ex:Y2017Q1 ;
+             skos:notation "Y2017M1"^^xsd:string .
+
+ex:Y2017M10 a ex:Time ;
+              skos:prefLabel "2017/october"@en ;
+              skos:broader ex:Y2017Q4 ;
+              skos:notation "Y2017M10"^^xsd:string .
+
+ex:Y2017M11 a ex:Time ;
+              skos:prefLabel "2017/november"@en ;
+              skos:broader ex:Y2017Q4 ;
+              skos:notation "Y2017M11"^^xsd:string .
+
+ex:Y2017M12 a ex:Time ;
+              skos:prefLabel "2017/december"@en ;
+              skos:broader ex:Y2017Q4 ;
+              skos:notation "Y2017M12"^^xsd:string .
+
+ex:Y2017M2 a ex:Time ;
+             skos:prefLabel "2017/february"@en ;
+             skos:broader ex:Y2017Q1 ;
+             skos:notation "Y2017M2"^^xsd:string .
+
+ex:Y2017M3 a ex:Time ;
+             skos:prefLabel "2017/mart"@en ;
+             skos:broader ex:Y2017Q1 ;
+             skos:notation "Y2017M3"^^xsd:string .
+
+ex:Y2017M4 a ex:Time ;
+             skos:prefLabel "2017/april"@en ;
+             skos:broader ex:Y2017Q2 ;
+             skos:notation "Y2017M4"^^xsd:string .
+
+ex:Y2017M5 a ex:Time ;
+             skos:prefLabel "2017/may"@en ;
+             skos:broader ex:Y2017Q2 ;
+             skos:notation "Y2017M5"^^xsd:string .
+
+ex:Y2017M6 a ex:Time ;
+             skos:prefLabel "2017/june"@en ;
+             skos:broader ex:Y2017Q2 ;
+             skos:notation "Y2017M6"^^xsd:string .
+
+ex:Y2017M7 a ex:Time ;
+             skos:prefLabel "2017/july"@en ;
+             skos:broader ex:Y2017Q3 ;
+             skos:notation "Y2017M7"^^xsd:string .
+
+ex:Y2017M8 a ex:Time ;
+             skos:prefLabel "2017/august"@en ;
+             skos:broader ex:Y2017Q3 ;
+             skos:notation "Y2017M8"^^xsd:string .
+
+ex:Y2017M9 a ex:Time ;
+             skos:prefLabel "2017/september"@en ;
+             skos:broader ex:Y2017Q3 ;
+             skos:notation "Y2017M9"^^xsd:string .
+
+ex:Y2017Q1 a ex:P3M ;
+             skos:prefLabel "2017/I quarter"@en ;
+             skos:broader ex:Y2017 ;
+             skos:notation "Y2017Q1"^^xsd:string .
+
+ex:Y2017Q2 a ex:P3M ;
+             skos:prefLabel "2017/II quarter"@en ;
+             skos:broader ex:Y2017 ;
+             skos:notation "Y2017Q2"^^xsd:string .
+
+ex:Y2017Q3 a ex:P3M ;
+             skos:prefLabel "2017/III quarter"@en ;
+             skos:broader ex:Y2017 ;
+             skos:notation "Y2017Q3"^^xsd:string .
+
+ex:Y2017Q4 a ex:P3M ;
+             skos:prefLabel "2017/IV quarter"@en ;
+             skos:broader ex:Y2017 ;
+             skos:notation "Y2017Q4"^^xsd:string .
+  
