@@ -93,6 +93,7 @@ ex:obs0 a qb:Observation ;
 	ex:population "47.274"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "1284"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "7,266"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs1 a qb:Observation ;
@@ -102,6 +103,7 @@ ex:obs1 a qb:Observation ;
 	ex:population "15.729"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "724"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "2,8074074074"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs2 a qb:Observation ;
@@ -111,6 +113,7 @@ ex:obs2 a qb:Observation ;
 	ex:population "15.068"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "481"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "2,9333333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs3 a qb:Observation ;
@@ -120,6 +123,7 @@ ex:obs3 a qb:Observation ;
 	ex:population "22.380"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "907"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "4,9264705882"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs4 a qb:Observation ;
@@ -129,6 +133,7 @@ ex:obs4 a qb:Observation ;
 	ex:population "31.693"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "265"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "1,875"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs5 a qb:Observation ;
@@ -138,6 +143,7 @@ ex:obs5 a qb:Observation ;
 	ex:population "51.349"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "455"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "2,2733333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs6 a qb:Observation ;
@@ -147,6 +153,7 @@ ex:obs6 a qb:Observation ;
 	ex:population "43.715"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "439"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "1,8076923077"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs7 a qb:Observation ;
@@ -156,6 +163,7 @@ ex:obs7 a qb:Observation ;
 	ex:population "41.872"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "370"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "5,4833333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs8 a qb:Observation ;
@@ -165,6 +173,7 @@ ex:obs8 a qb:Observation ;
 	ex:population "57.676"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "498"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "4,8333333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs9 a qb:Observation ;
@@ -174,12 +183,9 @@ ex:obs9 a qb:Observation ;
 	ex:population "38.182"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "390"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "5,3916666667"^^<http://www.w3.org/2001/XMLSchema#double> .
   
-  ex:DE a ex:Region ;
-  owl:sameAs dbp-r:Germany ;
-  rdfs:label "Germany"@en .
-
 ex:quarter1 a ex:Region ;
   owl:sameAs wd:Q1758503 ;
   rdfs:label "El Raval"@en .
