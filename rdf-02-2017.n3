@@ -189,7 +189,7 @@ ex:obs5 a qb:Observation ;
 	ex:geo ex:quarter6 ;
 	ex:perCapitaIncome 95.9 ;
 	ex:population 51.349 ;
-	ex:numVisits 455" ;
+	ex:numVisits 455 ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
