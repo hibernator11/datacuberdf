@@ -372,91 +372,79 @@ ex:quarter40 a ex:Region ;
   owl:sameAs wd:Q3298502 ;
   rdfs:label "Montbau"@en . 
   
-ex:Navas a ex:Region ;
+ex:quarter63 a ex:Region ;
   owl:sameAs wd:Q3813816 ;
   rdfs:label "Navas"@en . 
 
-ex:Pedralbes a ex:Region ;
+ex:quarter21 a ex:Region ;
   owl:sameAs wd:Q2562684 ;
   rdfs:label "Pedralbes"@en . 
 
-ex:Porta a ex:Region ;
+ex:quarter45 a ex:Region ;
   owl:sameAs wd:Q3750558 ;
   rdfs:label "Porta"@en . 
 
-ex:Provencals a ex:Region ;
+ex:quarter71 a ex:Region ;
   owl:sameAs wd:Q6273541 ;
   rdfs:label "Provençals del Poblenou"@en . 
   
-ex:Andreu a ex:Region ;
+ex:quarter60 a ex:Region ;
   owl:sameAs wd:Q990510 ;
   rdfs:label "Sant Andreu de Palomar"@en . 
       
-ex:Antoni a ex:Region ;
+ex:quarter10 a ex:Region ;
   owl:sameAs wd:Q720994 ;
   rdfs:label "Sant Antoni"@en . 
 
-ex:Genis a ex:Region ;
+ex:quarter39 a ex:Region ;
   owl:sameAs wd:Q3298510 ;
   rdfs:label "Sant Genís dels Agudells"@en . 
 
-ex:Genis a ex:Region ;
+ex:quarter26 a ex:Region ;
   owl:sameAs wd:Q3389521 ;
   rdfs:label "Sant Gervasi – Galvany"@en .  
 
-ex:Gervasi a ex:Region ;
+ex:quarter25 a ex:Region ;
   owl:sameAs wd:Q3321657 ;
   rdfs:label "Sant Gervasi – la Bonanova"@en .
 
-ex:Marti a ex:Region ;
+ex:quarter72 a ex:Region ;
   owl:sameAs wd:Q3773169 ;
   rdfs:label "Sant Martí de Provençals"@en . 
 
-ex:Gervasi a ex:Region ;
-  owl:sameAs wd:Q3321657 ;
-  rdfs:label "Sant Gervasi – la Bonanova"@en .
-  
-ex:SantPere a ex:Region ;
+ex:quarter4 a ex:Region ;
   owl:sameAs wd:Q2442135 ;
   rdfs:label "Sant Pere, Santa Caterina i la Ribera"@en .
 
-ex:SantPere a ex:Region ;
-  owl:sameAs wd:Q2442135 ;
-  rdfs:label "Sant Pere, Santa Caterina i la Ribera"@en .
-
-ex:Sants a ex:Region ;
+ex:quarter18 a ex:Region ;
   owl:sameAs wd:Q2476184 ;
   rdfs:label "Sants"@en .
 
-ex:SantsBadal a ex:Region ;
+ex:quarter17 a ex:Region ;
   owl:sameAs wd:Q3596096 ;
   rdfs:label "Sants-Badal"@en .
   
-ex:Sarria a ex:Region ;
+ex:quarter23 a ex:Region ;
   owl:sameAs wd:Q3043699 ;
   rdfs:label "Sarrià"@en .
   
-ex:TorreBaro a ex:Region ;
+ex:quarter54 a ex:Region ;
   owl:sameAs wd:Q3750940 ;
   rdfs:label "Torre Baró"@en .
   
-ex:TorreBaro a ex:Region ;
-  owl:sameAs wd:Q3750940 ;
-  rdfs:label "Torre Baró"@en .
-  
-ex:Vallbona a ex:Region ;
+ex:quarter56 a ex:Region ;
   owl:sameAs wd:Q3751072 ;
   rdfs:label "Vallbona"@en .
 
-ex:Vallcarca a ex:Region ;
+ex:quarter28 a ex:Region ;
   owl:sameAs wd:Q2057331 ;
   rdfs:label "Vallcarca i els Penitents"@en .
 
-ex:Vallvidrera a ex:Region ;
+ex:quarter22 a ex:Region ;
   owl:sameAs wd:Q3310216 ;
   rdfs:label "Vallvidrera, el Tibidabo i les Planes"@en .
   
-ex:Verdum a ex:Region ;
+ex:quarter51 a ex:Region ;
   owl:sameAs wd:Q3750551 ;
   rdfs:label "Verdum"@en .
 
