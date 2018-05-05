@@ -136,6 +136,7 @@ ex:obs0 a qb:Observation ;
 	ex:population "47.274"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:numVisits "1284"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "7,266"^^<http://www.w3.org/2001/XMLSchema#double> .
 
@@ -147,6 +148,7 @@ ex:obs1 a qb:Observation ;
 	ex:numVisits "724"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "2,8074074074"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs2 a qb:Observation ;
@@ -157,6 +159,7 @@ ex:obs2 a qb:Observation ;
 	ex:numVisits "481"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "2,9333333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs3 a qb:Observation ;
@@ -167,6 +170,7 @@ ex:obs3 a qb:Observation ;
 	ex:numVisits "907"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "4,9264705882"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs4 a qb:Observation ;
@@ -177,6 +181,7 @@ ex:obs4 a qb:Observation ;
 	ex:numVisits "265"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "1,875"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs5 a qb:Observation ;
@@ -187,6 +192,7 @@ ex:obs5 a qb:Observation ;
 	ex:numVisits "455"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "2,2733333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs6 a qb:Observation ;
@@ -197,6 +203,7 @@ ex:obs6 a qb:Observation ;
 	ex:numVisits "439"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "1,8076923077"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs7 a qb:Observation ;
@@ -207,6 +214,7 @@ ex:obs7 a qb:Observation ;
 	ex:numVisits "370"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "5,4833333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs8 a qb:Observation ;
@@ -217,6 +225,7 @@ ex:obs8 a qb:Observation ;
 	ex:numVisits "498"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "4,8333333333"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 ex:obs9 a qb:Observation ;
@@ -227,6 +236,7 @@ ex:obs9 a qb:Observation ;
 	ex:numVisits "390"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
+	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "5,3916666667"^^<http://www.w3.org/2001/XMLSchema#double> .
   
 ex:quarter1 a ex:Region ;
