@@ -59,7 +59,7 @@ ex:state a rdf:Property, qb:MeasureProperty ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
     rdfs:comment "The state of a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue ;
-    rdfs:range xmls:decimal .        
+    rdfs:range xmls:double .        
 
 ex:dsd a qb:DataStructureDefinition ;
   rdfs:label "DSD for the dataset"@en ;
@@ -132,75 +132,75 @@ rdfs:label "Unit" .
 ex:obs0 a qb:Observation ;
 	qb:dataSet ex:dataset ;
 	ex:geo ex:quarter1 ;
-	ex:perCapitaIncome "74,6"^^xmls:double ;
+	ex:perCapitaIncome 74.6 ;
 	ex:population "47.274"^^xmls:int ;
 	ex:numVisits "1284"^^xmls:int ;
 	ex:time ex:Y2017M2 ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
 	sdmx-attr:unitMeasure ex:unit ;
-	ex:state "7,266"^^xmls:double .
+	ex:state 7.2 .
 
 ex:obs1 a qb:Observation ;
 	qb:dataSet ex:dataset ;
 	ex:geo ex:quarter2 ;
-	ex:perCapitaIncome "110,5"^^xmls:double ;
+	ex:perCapitaIncome 110.5 ;
 	ex:population "15.729"^^xmls:int ;
 	ex:numVisits "724"^^xmls:int ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "2,8"^^xmls:double .
+	ex:state 2.8 .
 
 ex:obs2 a qb:Observation ;
 	qb:dataSet ex:dataset ;
 	ex:geo ex:quarter3 ;
-	ex:perCapitaIncome "84,8"^^xmls:double ;
+	ex:perCapitaIncome 84.8 ;
 	ex:population "15.068"^^xmls:int ;
 	ex:numVisits "481"^^xmls:int ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "2,9"^^xmls:double .
+	ex:state 2.9 .
 
 ex:obs3 a qb:Observation ;
 	qb:dataSet ex:dataset ;
 	ex:geo ex:quarter4 ;
-	ex:perCapitaIncome "97,8"^^xmls:double ;
+	ex:perCapitaIncome 97.8 ;
 	ex:population "22.380"^^xmls:int ;
 	ex:numVisits "907"^^xmls:int ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "4,9"^^xmls:double .
+	ex:state 4.9 .
 
 ex:obs4 a qb:Observation ;
 	qb:dataSet ex:dataset ;
 	ex:geo ex:quarter5 ;
-	ex:perCapitaIncome "105,0"^^xmls:double ;
+	ex:perCapitaIncome 105.0 ;
 	ex:population "31.693"^^xmls:int ;
 	ex:numVisits "265"^^xmls:int ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "1,8"^^xmls:double .
+	ex:state 1.8 .
 
 ex:obs5 a qb:Observation ;
 	qb:dataSet ex:dataset ;
 	ex:geo ex:quarter6 ;
-	ex:perCapitaIncome "95,9"^^xmls:double ;
-	ex:population "51.349"^^xmls:int ;
-	ex:numVisits "455"^^xmls:int ;
+	ex:perCapitaIncome 95.9 ;
+	ex:population 51.349 ;
+	ex:numVisits 455" ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "2,2"^^xmls:double .
+	ex:state "2.2"^^xmls:double .
 
 ex:obs6 a qb:Observation ;
 	qb:dataSet ex:dataset ;
 	ex:geo ex:quarter7 ;
 	ex:perCapitaIncome "170,0"^^xmls:double ;
-	ex:population "43.715"^^xmls:int ;
-	ex:numVisits "439"^^xmls:int ;
+	ex:population 43.715 ;
+	ex:numVisits 439 ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
