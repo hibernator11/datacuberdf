@@ -22,16 +22,16 @@ ex:dataset a qb:DataSet ;
   dc:publisher "Publisher Office"^^xmls:string .
   
 sdmx-attr:unitMeasure a rdf:Property, qb:AttributeProperty ;
-                           rdfs:label "Unit of Measure"@en ;
-                           rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
-                           rdfs:comment "The unit in which the data values are measured."@en ;
-                           qb:concept sdmx-concept:unitMeasure .  
+                        rdfs:label "Unit of Measure"@en ;
+                        rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
+                        rdfs:comment "The unit in which the data values are measured."@en ;
+                        qb:concept sdmx-concept:unitMeasure .  
                            
 sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
-                      rdfs:label "Observation"@en ;
-                      rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
-                      rdfs:comment "The value of a particular variable at a particular period."@en ;
-                      qb:concept sdmx-concept:obsValue .     
+                     rdfs:label "Observation"@en ;
+                     rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
+                     rdfs:comment "The value of a particular variable at a particular period."@en ;
+                     qb:concept sdmx-concept:obsValue .     
                       
 ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
     rdfs:label "per capita income"@en ;
@@ -86,19 +86,19 @@ ex-dsd:value a qb:ComponentSpecification ;
   qb:measure sdmx-meas:obsValue .
   
 ex-dsd:perCapitaIncome a qb:ComponentSpecification ;
-  rdfs:label "perCapitaIncome for Value" ;
+  rdfs:label "CS for perCapitaIncome" ;
   qb:measure ex:perCapitaIncome.  
   
 ex-dsd:population a qb:ComponentSpecification ;
-  rdfs:label "population for Value" ;
+  rdfs:label "CS for population" ;
   qb:measure ex:population.  
   
 ex-dsd:numVisits a qb:ComponentSpecification ;
-  rdfs:label "num visits" ;
+  rdfs:label "CS for num visits" ;
   qb:measure ex:numVisits.    
   
 ex-dsd:state a qb:ComponentSpecification ;
-  rdfs:label "state" ;
+  rdfs:label "CS for state" ;
   qb:measure ex:state.    
 
 ex-dsd:unit a qb:ComponentSpecification ;
@@ -149,7 +149,7 @@ ex:obs1 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "2,8074074074"^^xmls:double .
+	ex:state "2,8"^^xmls:double .
 
 ex:obs2 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -160,7 +160,7 @@ ex:obs2 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "2,9333333333"^^xmls:double .
+	ex:state "2,9"^^xmls:double .
 
 ex:obs3 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -171,7 +171,7 @@ ex:obs3 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "4,9264705882"^^xmls:double .
+	ex:state "4,9"^^xmls:double .
 
 ex:obs4 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -182,7 +182,7 @@ ex:obs4 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "1,875"^^xmls:double .
+	ex:state "1,8"^^xmls:double .
 
 ex:obs5 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -193,7 +193,7 @@ ex:obs5 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "2,2733333333"^^xmls:double .
+	ex:state "2,2"^^xmls:double .
 
 ex:obs6 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -204,7 +204,7 @@ ex:obs6 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "1,8076923077"^^xmls:double .
+	ex:state "1,8"^^xmls:double .
 
 ex:obs7 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -215,7 +215,7 @@ ex:obs7 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "5,4833333333"^^xmls:double .
+	ex:state "5,4"^^xmls:double .
 
 ex:obs8 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -226,7 +226,7 @@ ex:obs8 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "4,8333333333"^^xmls:double .
+	ex:state "4,8"^^xmls:double .
 
 ex:obs9 a qb:Observation ;
 	qb:dataSet ex:dataset ;
@@ -237,7 +237,7 @@ ex:obs9 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "5,3916666667"^^xmls:double .
+	ex:state "5,3"^^xmls:double .
   
 ex:quarter1 a ex:Region ;
   owl:sameAs wd:Q1758503 ;
