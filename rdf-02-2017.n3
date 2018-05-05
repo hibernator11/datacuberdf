@@ -39,6 +39,13 @@ ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
     rdfs:comment "The per capita oncome of a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue ;
     rdfs:range xmls:decimal . 
+    
+ex:population a rdf:Property, qb:MeasureProperty ;
+    rdfs:label "per capita income"@en ;
+    rdfs:subPropertyOf sdmx-meas:obsValue ;
+    rdfs:comment "The population of a particular quarter at a particular period."@en ;
+    qb:concept sdmx-concept:obsValue ;
+    rdfs:range xmls:decimal .     
 
 ex:dsd a qb:DataStructureDefinition ;
   rdfs:label "DSD for the dataset"@en ;
@@ -47,6 +54,7 @@ ex:dsd a qb:DataStructureDefinition ;
     ex-dsd:time , 
     ex-dsd:unit , 
     ex-dsd:value ,
+    ex-dsd:population ,
     ex-dsd:perCapitaIncome.
 
 ex-dsd:geo a qb:ComponentSpecification ;
@@ -64,6 +72,10 @@ ex-dsd:value a qb:ComponentSpecification ;
 ex-dsd:perCapitaIncome a qb:ComponentSpecification ;
   rdfs:label "perCapitaIncome for Value" ;
   qb:measure ex:perCapitaIncome.  
+  
+ex-dsd:population a qb:ComponentSpecification ;
+  rdfs:label "population for Value" ;
+  qb:measure ex:population.  
 
 ex-dsd:unit a qb:ComponentSpecification ;
   rdfs:label "CS for Unit" ;
@@ -80,11 +92,12 @@ ex:value a qb:MeasureProperty ;
   
 ex:perCapitaIncome a qb:MeasureProperty ;
   rdfs:label "Per capita income"@en .  
+  
+ex:population a qb:MeasureProperty ;
+  rdfs:label "Population"@en .   
 
 ex:unit a qb:AttributeProperty ;
 rdfs:label "Unit" .
-
-
 
 ex:obs0 a qb:Observation ;
 	qb:dataSet ex:dataset ;
