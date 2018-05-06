@@ -59,7 +59,6 @@ ex:dsd a qb:DataStructureDefinition ;
     ex-dsd:geo , 
     ex-dsd:time , 
     ex-dsd:unit , 
-    ex-dsd:value ,
     ex-dsd:population ,
     ex-dsd:numVisits ,
     ex-dsd:state ,
@@ -99,9 +98,6 @@ ex:geo a qb:DimensionProperty ;
 ex:time a qb:DimensionProperty ;
   rdfs:label "Time"@en .
 
-ex:value a qb:MeasureProperty ;
-  rdfs:label "Value"@en .
-  
 ex:perCapitaIncome a qb:MeasureProperty ;
   rdfs:label "Per capita income"@en .  
   
