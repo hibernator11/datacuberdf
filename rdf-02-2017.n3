@@ -27,12 +27,6 @@ sdmx-attr:unitMeasure a rdf:Property, qb:AttributeProperty ;
                         rdfs:comment "The unit in which the data values are measured."@en ;
                         qb:concept sdmx-concept:unitMeasure .  
                            
-sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
-                     rdfs:label "Observation"@en ;
-                     rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
-                     rdfs:comment "The value of a particular variable at a particular period."@en ;
-                     qb:concept sdmx-concept:obsValue .     
-                      
 ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
     rdfs:label "per capita income"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
@@ -79,10 +73,6 @@ ex-dsd:time a qb:ComponentSpecification ;
   qb:dimension ex:time ;
   rdfs:label "CS for Time" .
 
-ex-dsd:value a qb:ComponentSpecification ;
-  rdfs:label "CS for Value" ;
-  qb:measure sdmx-meas:obsValue .
-  
 ex-dsd:perCapitaIncome a qb:ComponentSpecification ;
   rdfs:label "CS for perCapitaIncome" ;
   qb:measure ex:perCapitaIncome.  
