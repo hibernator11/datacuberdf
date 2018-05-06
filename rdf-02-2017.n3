@@ -134,7 +134,6 @@ ex:obs0 a qb:Observation ;
 	ex:population "47274"^^xmls:float  ;
 	ex:numVisits "1284"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	sdmx-attr:unitMeasure ex:unit ;
 	ex:state "7.2"^^xmls:decimal .
 
@@ -146,7 +145,6 @@ ex:obs1 a qb:Observation ;
 	ex:numVisits "724"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "2.8"^^xmls:decimal .
 
 ex:obs2 a qb:Observation ;
@@ -157,7 +155,6 @@ ex:obs2 a qb:Observation ;
 	ex:numVisits "481"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "2.9"^^xmls:decimal .
 
 ex:obs3 a qb:Observation ;
@@ -168,7 +165,6 @@ ex:obs3 a qb:Observation ;
 	ex:numVisits "907"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "4.9"^^xmls:decimal .
 
 ex:obs4 a qb:Observation ;
@@ -179,7 +175,6 @@ ex:obs4 a qb:Observation ;
 	ex:numVisits "265"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "1.8"^^xmls:decimal .
 
 ex:obs5 a qb:Observation ;
@@ -190,7 +185,6 @@ ex:obs5 a qb:Observation ;
 	ex:numVisits "455"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "2.2"^^xmls:decimal .
 
 ex:obs6 a qb:Observation ;
@@ -201,7 +195,6 @@ ex:obs6 a qb:Observation ;
 	ex:numVisits "439"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "1.8"^^xmls:decimal .
 
 ex:obs7 a qb:Observation ;
@@ -212,7 +205,6 @@ ex:obs7 a qb:Observation ;
 	ex:numVisits "370"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "5.4"^^xmls:decimal .
 
 ex:obs8 a qb:Observation ;
@@ -223,7 +215,6 @@ ex:obs8 a qb:Observation ;
 	ex:numVisits "498"^^xmls:float  ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "4.8"^^xmls:decimal .
 
 ex:obs9 a qb:Observation ;
@@ -234,7 +225,6 @@ ex:obs9 a qb:Observation ;
 	ex:numVisits "390"^^xmls:float ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
-	sdmx-meas:obsValue "2400"^^xmls:float ;
 	ex:state "5.3"^^xmls:decimal .
   
 ex:quarter1 a ex:Region ;
