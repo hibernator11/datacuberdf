@@ -193,7 +193,7 @@ ex:obs5 a qb:Observation ;
 	ex:time ex:Y2017M2 ;
 	sdmx-attr:unitMeasure ex:unit ;
 	sdmx-meas:obsValue "2400"^^xmls:float ;
-	ex:state "2.2""^^xmls:decimal .
+	ex:state "2.2"^^xmls:decimal .
 
 ex:obs6 a qb:Observation ;
 	qb:dataSet ex:dataset ;
