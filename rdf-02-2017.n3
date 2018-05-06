@@ -44,15 +44,13 @@ ex:population a rdf:Property, qb:MeasureProperty ;
     rdfs:label "population"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
     rdfs:comment "The population of a particular quarter at a particular period."@en ;
-    qb:concept sdmx-concept:obsValue ;
-    rdfs:range xmls:decimal .     
+    qb:concept sdmx-concept:obsValue .
     
 ex:numVisits a rdf:Property, qb:MeasureProperty ;
     rdfs:label "Number of visits"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
     rdfs:comment "The number of visits of a particular quarter at a particular period."@en ;
-    qb:concept sdmx-concept:obsValue ;
-    rdfs:range xmls:decimal .      
+    qb:concept sdmx-concept:obsValue .
     
 ex:state a rdf:Property, qb:MeasureProperty ;
     rdfs:label "State"@en ;
