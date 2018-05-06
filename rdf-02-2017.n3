@@ -26,6 +26,12 @@ sdmx-attr:unitMeasure a rdf:Property, qb:AttributeProperty ;
                         rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
                         rdfs:comment "The unit in which the data values are measured."@en ;
                         qb:concept sdmx-concept:unitMeasure .  
+			
+sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
+                      rdfs:label "Observation"@en ;
+                      rdfs:isDefinedBy <http://sdmx.org/wp-content/uploads/2009/01/01_sdmx_cog_annex_1_cdc_2009.pdf> ;
+                      rdfs:comment "The value of a particular variable at a particular period."@en ;
+                      qb:concept sdmx-concept:obsValue . 			
                            
 ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
     rdfs:label "per capita income"@en ;
@@ -62,6 +68,7 @@ ex:dsd a qb:DataStructureDefinition ;
     ex-dsd:population ,
     ex-dsd:numVisits ,
     ex-dsd:state ,
+    ex-dsd:value ,
     ex-dsd:perCapitaIncome.
 
 ex-dsd:geo a qb:ComponentSpecification ;
@@ -71,6 +78,10 @@ ex-dsd:geo a qb:ComponentSpecification ;
 ex-dsd:time a qb:ComponentSpecification ;
   qb:dimension ex:time ;
   rdfs:label "CS for Time" .
+  
+ex-dsd:value a qb:ComponentSpecification ;
+  rdfs:label "CS for Value" ;
+  qb:measure sdmx-meas:obsValue .  
 
 ex-dsd:perCapitaIncome a qb:ComponentSpecification ;
   rdfs:label "CS for perCapitaIncome" ;
@@ -97,6 +108,9 @@ ex:geo a qb:DimensionProperty ;
 
 ex:time a qb:DimensionProperty ;
   rdfs:label "Time"@en .
+  
+ex:value a qb:MeasureProperty ;
+  rdfs:label "Value"@en .  
 
 ex:perCapitaIncome a qb:MeasureProperty ;
   rdfs:label "Per capita income"@en .  
