@@ -144,7 +144,7 @@ rdfs:label "Unit" .
 
 
 ex:obs0 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter1 ; 
   ex:perCapitaIncome "74.6"^^xmls:double ; 
   ex:population "47274"^^xmls:int ; 
@@ -155,7 +155,7 @@ ex:obs0 a qb:Observation ;
   ex:criticalCleaningSpots "50"^^xmls:int . 
   
 ex:obs1 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter2 ; 
   ex:perCapitaIncome "110.5"^^xmls:double ; 
   ex:population "15729"^^xmls:int ; 
@@ -166,7 +166,7 @@ ex:obs1 a qb:Observation ;
   ex:criticalCleaningSpots "27"^^xmls:int . 
   
 ex:obs2 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter3 ; 
   ex:perCapitaIncome "84.8"^^xmls:double ; 
   ex:population "15068"^^xmls:int ; 
@@ -177,7 +177,7 @@ ex:obs2 a qb:Observation ;
   ex:criticalCleaningSpots "15"^^xmls:int . 
   
 ex:obs3 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter4 ; 
   ex:perCapitaIncome "97.8"^^xmls:double ; 
   ex:population "22380"^^xmls:int ; 
@@ -188,7 +188,7 @@ ex:obs3 a qb:Observation ;
   ex:criticalCleaningSpots "34"^^xmls:int . 
   
 ex:obs4 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter5 ; 
   ex:perCapitaIncome "105.0"^^xmls:double ; 
   ex:population "31693"^^xmls:int ; 
@@ -199,7 +199,7 @@ ex:obs4 a qb:Observation ;
   ex:criticalCleaningSpots "8"^^xmls:int . 
   
 ex:obs5 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter6 ; 
   ex:perCapitaIncome "95.9"^^xmls:double ; 
   ex:population "51349"^^xmls:int ; 
@@ -210,7 +210,7 @@ ex:obs5 a qb:Observation ;
   ex:criticalCleaningSpots "15"^^xmls:int . 
   
 ex:obs6 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter7 ; 
   ex:perCapitaIncome "170.0"^^xmls:double ; 
   ex:population "43715"^^xmls:int ; 
@@ -221,7 +221,7 @@ ex:obs6 a qb:Observation ;
   ex:criticalCleaningSpots "13"^^xmls:int . 
   
 ex:obs7 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter8 ; 
   ex:perCapitaIncome "139.2"^^xmls:double ; 
   ex:population "41872"^^xmls:int ; 
@@ -232,7 +232,7 @@ ex:obs7 a qb:Observation ;
   ex:criticalCleaningSpots "12"^^xmls:int . 
   
 ex:obs8 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter9 ; 
   ex:perCapitaIncome "105.3"^^xmls:double ; 
   ex:population "57676"^^xmls:int ; 
@@ -243,7 +243,7 @@ ex:obs8 a qb:Observation ;
   ex:criticalCleaningSpots "15"^^xmls:int . 
   
 ex:obs9 a qb:Observation ; 
-  qb:dataSet "http://example.com/dataset" ; 
+  qb:dataSet ex:dataset ; 
   ex:geo ex:quarter10 ; 
   ex:perCapitaIncome "104.0"^^xmls:double ; 
   ex:population "38182"^^xmls:int ; 
