@@ -33,14 +33,14 @@ sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
                       qb:concept sdmx-concept:obsValue . 			
                            
 ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
-    rdfs:label "per capita income"@en ;
+    rdfs:label "Per capita income"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
-    rdfs:comment "The per capita oncome of a particular quarter at a particular period."@en ;
+    rdfs:comment "The per capita income of a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue ;
     rdfs:range xmls:decimal . 
     
 ex:population a rdf:Property, qb:MeasureProperty ;
-    rdfs:label "population"@en ;
+    rdfs:label "Population"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
     rdfs:comment "The population of a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue .
@@ -108,8 +108,7 @@ ex-dsd:state a qb:ComponentSpecification ;
 
 ex-dsd:criticalCleaningSpots a qb:ComponentSpecification ;
   rdfs:label "CS for critical cleaning spots" ;
-  qb:measure ex:state.    
-
+  qb:measure ex:criticalCleaningSpots.    
 
 ex-dsd:unit a qb:ComponentSpecification ;
   rdfs:label "CS for Unit" ;
