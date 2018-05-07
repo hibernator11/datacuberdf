@@ -53,7 +53,7 @@ ex:numVisits a rdf:Property, qb:MeasureProperty ;
     
 
 ex:criticalCleaningSpots a rdf:Property, qb:MeasureProperty ;
-    rdfs:label "Number of visits"@en ;
+    rdfs:label "Critical cleaning spots"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
     rdfs:comment "The number of critical cleaning spots of a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue .    
@@ -75,7 +75,7 @@ ex:dsd a qb:DataStructureDefinition ;
     ex-dsd:numVisits ,
     ex-dsd:state ,
     ex-dsd:value ,
-    ex-dsd:criticalCleaningSpots
+    ex-dsd:criticalCleaningSpots ,
     ex-dsd:perCapitaIncome.
 
 ex-dsd:geo a qb:ComponentSpecification ;
